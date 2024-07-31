@@ -45,8 +45,7 @@ So, assuming I want to run for six minutes, which pairs of songs match that time
 
 There are already 25 pairs of songs to choose from. You might argue that some of those are wild concoctions, musically, like combining energetic _Overdone_ with an acoustic guitar based _Fairytale Lullaby_. And I agree! You could handpick songs that you would like to keep (or drop) before generating the interactions to avoid this. However, you would also decrease the number of possible pairs of songs with this. If you allowed for an additional second +/- your desired time, the number of possible pairs doubles to triples, depending on the specific interval. Here’s an overview of how many suggestions I got for each time-interval:
 
-<img width="600" alt="Number of Songs per Interval" src="https://github.com/user-attachments/assets/ddd78e3c-acba-43b7-bce8-e7cae29d66f8">
-
+<img width="600" alt="Number of Songs per Interval" src="https://github.com/user-attachments/assets/43616cc8-9682-4e83-9161-d358dd00e658">
 
 After a bit of trial and error, I found that it is even possible to extend this project to triples of songs, or technically speaking: three-way-interactions. This generates 152,096 triples of songs and extends the range of time-intervals to as much as 17 minutes. However, anything above a three-way interaction only resulted in crashes of the program.
 
